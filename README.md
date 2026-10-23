@@ -17,7 +17,7 @@ Open this directory in Android Studio, or run `gradlew.bat assembleDebug` on Win
 
 ## Download an APK
 
-Every push to `main` builds a debug APK. Download it from the latest successful **Android APK** workflow run under **Actions > Artifacts** (artifacts expire after 30 days). To publish an APK under **Releases**, push a version tag such as `v0.1.0`; the workflow builds the APK and attaches it to that release automatically. These are debug-signed prototype builds, intended for testing and sideloading rather than Play Store publication.
+Every push to `main` builds a debug APK. Download it from the latest successful **Android APK** workflow run under **Actions > Artifacts** (artifacts expire after 30 days). To publish an APK under **Releases**, push a version tag such as `v0.1.0-prototype`; the workflow builds the APK and attaches it to a prerelease automatically. Tags without a suffix, such as `v0.1.0`, create regular releases. These are debug-signed prototype builds, intended for testing and sideloading rather than Play Store publication.
 
 ## Known limitations
 
