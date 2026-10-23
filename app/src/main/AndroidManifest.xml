@@ -1,0 +1,24 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="false"
+        android:label="Swapbar"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ClaudeSession0Activity" android:process=":claude_session_0" android:exported="false" />
+        <activity android:name=".ClaudeSession1Activity" android:process=":claude_session_1" android:exported="false" />
+        <activity android:name=".ClaudeSession2Activity" android:process=":claude_session_2" android:exported="false" />
+        <activity android:name=".ClaudeSession3Activity" android:process=":claude_session_3" android:exported="false" />
+        <activity android:name=".ClaudeSession4Activity" android:process=":claude_session_4" android:exported="false" />
+        <activity android:name=".ClaudeSession5Activity" android:process=":claude_session_5" android:exported="false" />
+        <activity android:name=".ClaudeSession6Activity" android:process=":claude_session_6" android:exported="false" />
+        <activity android:name=".ClaudeSession7Activity" android:process=":claude_session_7" android:exported="false" />
+    </application>
+</manifest>

@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.swapbar.android'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.swapbar.android'
+        minSdk 28
+        targetSdk 35
+        versionCode 1
+        versionName '0.1.0-prototype'
+    }
+}
