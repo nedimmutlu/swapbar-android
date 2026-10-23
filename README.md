@@ -15,6 +15,10 @@ The account label is user supplied; Swapbar does not verify which identity is si
 
 Open this directory in Android Studio, or run `gradlew.bat assembleDebug` on Windows. The project uses Java 21, Gradle 8.13, Android Gradle Plugin 8.13.2, compile SDK 36, and minimum Android 9 (API 28). Android Studio may download the Gradle plugin and JDK on first sync.
 
+## Download an APK
+
+Every push to `main` builds a debug APK. Download it from the latest successful **Android APK** workflow run under **Actions > Artifacts** (artifacts expire after 30 days). To publish an APK under **Releases**, push a version tag such as `v0.1.0`; the workflow builds the APK and attaches it to that release automatically. These are debug-signed prototype builds, intended for testing and sideloading rather than Play Store publication.
+
 ## Known limitations
 
 - This is an experimental WebView client, not an official Anthropic or OpenAI app.
